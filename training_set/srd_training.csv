@@ -1,0 +1,294 @@
+name,ac,hp,hit_bonus,max_dmg_turn,legendary,cr
+aboleth,17,135,9,36,1,10
+angel deva,17,136,8,50,0,10
+angel planetar,19,200,12,86,0,16
+angel solar,21,243,15,98,1,21
+animated armor,18,33,4,10,0,1
+flying sword,17,17,3,5,0,0.25
+rug of smothering,12,33,5,10,0,2
+ankheg,14,39,5,11,0,2
+basilisk,15,52,5,17,0,3
+behir,17,168,10,66,0,11
+bugbear,16,27,4,11,0,1
+bulette,17,94,7,30,0,5
+centaur,12,45,6,18,0,2
+chimera,14,114,7,32,0,6
+chuul,16,93,6,22,0,4
+cloaker,14,78,6,17,0,8
+cockatrice,11,27,3,3,0,0.5
+couatl,19,97,8,10,0,4
+darkmantle,11,22,5,6,0,0.5
+balor,19,262,14,59,0,19
+dretch,11,18,2,8,0,0.25
+glabrezu,17,157,9,46,0,9
+hezrou,16,136,7,37,0,8
+marilith,18,189,9,93,0,16
+nalfeshnee,18,184,10,62,0,13
+quasit,13,7,4,10,0,1
+vrock,15,104,6,24,0,6
+barbed devil,15,110,6,24,0,5
+bearded devil,13,52,5,14,0,3
+bone devil,19,142,8,46,0,9
+chain devil,16,85,8,29,0,8
+erinyes,18,153,8,66,0,12
+horned devil,18,178,10,40,0,11
+ice devil,18,180,10,34,0,14
+imp,13,10,5,15,0,1.0
+pit fiend,19,300,14,120,0,20
+plesiosaurus,13,68,6,14,0,2
+triceratops,13,95,9,24,0,5
+tyrannosaurus rex,13,136,10,53,0,8
+doppelganger,14,52,6,14,0,3
+ancient black dragon,22,367,15,67,1,21
+adult black dragon,19,195,11,54,1,14
+young black dragon,18,127,7,49,0,7
+black dragon wyrmling,17,33,4,22,0,2
+ancient blue dragon,22,481,16,88,1,23
+adult blue dragon,19,225,12,66,1,16
+young blue dragon,18,152,9,55,0,9
+blue dragon wymling,17,52,5,22,0,3
+ancient green dragon,21,385,15,2,1,22
+adult green dragon,19,207,11,56,1,15
+young green dragon,18,136,7,42,0,8
+green dragon wymling,17,38,4,21,0,2
+ancient red dragon,22,546,17,91,1,24
+adult red dragon,19,256,14,63,1,17
+young red dragon,18,178,10,56,0,10
+red dragon wymling,17,75,6,24,0,4
+ancient white dragon,20,333,14,72,1,20
+adult white dragon,18,200,11,54,1,13
+young white dragon,17,133,7,45,0,6
+white dragon wymling,16,32,4,22,0,2
+ancient brass dragon,20,297,14,59,1,20
+adult brass dragon,18,172,17,45,1,13
+young brass dragon,17,110,7,42,0,6
+brass dragon wymling,16,16,4,14,0,1
+ancient bronze dragon,22,444,16,88,1,22
+adult bronze dragon,19,212,12,66,1,15
+young bronze dragon,18,142,8,55,0,8
+bronze dragon wymling,17,32,5,16,0,2
+ancient copper dragon,21,350,15,63,1,21
+adult copper dragon,18,184,11,54,1,14
+young copper dragon,17,119,7,40,1,7
+copper dragon wymling,16,22,4,18,0,1
+ancient gold dragon,22,546,17,71,1,24
+adult gold dragon,19,256,14,66,1,17
+young gold dragon,18,178,10,55,0,10
+gold dragon wymling,17,60,6,22,0,3
+ancient silver dragon,22,487,17,67,1,23
+adult silver dragon,19,243,13,58,1,16
+young silver dragon,18,168,10,54,0,9
+silver dragon wymling,17,45,6,18,0,2
+dragon turtle,20,341,13,52,0,17
+drider,19,123,6,33,0,6
+dryad,11,22,2,8,0,1
+duergar,16,26,4,11,0,1
+air elemental,15,90,8,28,0,5
+earth elemental,17,126,8,28,0,5
+fire elemental,13,102,6,25,0,5
+water elemental,14,114,7,26,0,5
+elf drow,15,13,4,5,0,0.25
+ettercap,13,44,4,17,0,2
+ettin,12,85,7,28,0,4
+shrieker,5,13,0,0,0,0
+violet fungus,5,18,2,4,0,0.25
+gargoyle,15,52,4,10,0,2
+djinni,17,161,9,45,0,11
+efreeti,17,200,11,40,0,11
+ghost,11,45,5,17,0,4
+ghast,13,36,3,12,0,2
+ghoul,12,22,2,9,0,1
+fire giant,18,162,11,56,0,9
+frost giant,15,138,9,50,0,8
+stone giant,17,126,9,38,0,7
+hill giant,13,105,8,36,0,5
+storm giant,16,230,14,60,0,13
+gibbering mouther,9,67,2,17,0,2
+gnoll,15,22,4,6,0,0.5
+gnome deep (svirfneblin),15,16,4,6,0,0.5
+goblin,15,7,4,5,0,0.25
+clay golem,14,133,8,32,0,9
+flesh golem,9,93,7,26,0,5
+iron golem,20,210,13,45,0,16
+stone golem,17,178,10,38,0,10
+gorgon,19,114,8,18,0,5
+grick,14,27,4,14,0,2
+griffon,12,59,6,19,0,2
+grimlock,11,11,5,7,0,0.25
+green hag,17,82,6,13,0,3
+night hag,17,112,7,13,0,5
+sea hag,14,52,5,10,0,2
+half-red dragon veteran,18,65,5,24,0,5
+harpy,11,38,3,9,0,1
+hell hound,15,45,5,21,0,3
+hippogriff,11,19,5,18,0,1
+hobgoblin,18,11,3,6,0,0.5
+homunculus,13,5,4,6,0,0
+hydra,15,172,8,40,0,8
+invisible stalker,14,104,6,20,0,6
+kobold,12,5,4,4,0,0.125
+kracken,18,472,17,60,1,23
+lamia,13,97,5,19,0,4
+lich,17,135,12,62,1,21
+lizardfolk,15,22,4,10,0,0.5
+werebear,11,135,7,26,0,5
+wereboar,11,78,5,20,0,4
+wererat,12,33,4,10,0,2
+weretiger,12,120,5,12,0,4
+werewolf,12,58,4,13,0,3
+magmin,14,9,4,10,0,0.5
+manticore,14,68,5,21,0,3
+medusa,15,127,5,28,0,6
+dust mephit,12,17,4,4,0,0.5
+ice mephit,11,21,3,5,0,0.5
+magma mephit,11,22,3,7,0,0.5
+steam mephit,10,21,2,4,0,0.25
+merfolk,11,11,2,4,0,0.125
+merrow,13,45,6,19,0,2
+mimic,12,58,5,7,0,2
+minotaur,14,76,6,17,0,3
+mummy,11,58,5,20,0,3
+mummy lord,17,97,9,35,1,15
+guardian naga,18,127,8,53,0,10
+spirit naga,15,75,7,38,0,8
+nightmare,13,68,6,13,0,3
+ogre,11,59,6,13,0,2
+oni,16,110,7,30,0,7
+black pudding,7,85,5,24,0,4
+gelatinous cube,6,84,4,10,0,2
+gray ooze,8,22,3,11,0,0.5
+ochre jelly,8,45,4,12,0,2
+orc,13,15,5,9,0,0.5
+otyugh,14,114,6,26,0,5
+owlbear,13,59,7,24,0,3
+pegasus,12,59,6,11,0,2
+pseudodragon,13,7,4,4,0,0.25
+purple worm,18,247,9,104,0,15
+rakshasa,16,110,7,18,0,13
+remorhaz,17,195,11,50,0,11
+roc,15,248,13,50,0,11
+roper,20,93,7,22,0,5
+rust monster,14,27,3,5,0,0.5
+sahuagin,12,22,3,7,0,0.5
+salamander,15,90,7,42,0,5
+satyr,14,31,3,6,0,0.5
+shadow,12,16,4,9,0,0.5
+shambling mound,15,136,7,39,0,5
+shield guardian,17,142,7,22,0,7
+skeleton,13,13,4,5,0,0.25
+minotaur skeleton,12,67,6,26,0,2
+warhorse skeleton,13,22,6,11,0,0.5
+specter,12,22,4,10,0,1
+androsphinx,17,199,12,44,1,17
+gynosphinx,17,136,8,23,1,11
+sprite,15,2,2,1,0,0.25
+stirge,14,2,5,5,0,0.125
+succubus/incubus,15,66,5,6,0,4
+tarrasque,25,676,19,148,1,30
+treant,16,138,10,32,0,9
+troll,15,84,7,29,0,5
+unicorn,12,67,7,18,0,5
+vampire,16,144,9,28,1,13
+vampire spawn,15,82,6,21,0,5
+wight,14,45,4,14,0,3
+will-o'-wisp,19,22,4,9,0,2
+wraith,13,67,6,21,0,5
+wyvern,13,110,7,24,0,6
+xorn,19,73,6,18,0,5
+zombie,8,22,3,4,0,0.5
+ogre zombie,8,85,6,13,0,2
+ape,12,19,5,12,0,0.5
+awakened shrub,9,10,1,1,0,0
+awakened tree,13,59,6,14,0,2
+axe beak,11,19,4,6,0,0.25
+baboon,12,3,0,1,0,1
+badger,10,3,2,1,0,0
+bat,12,1,0,1,0,0
+black bear,11,19,3,12,0,0.5
+blink dog,13,22,3,4,0,0.25
+blood hawk,12,7,4,4,0,0.125
+boar,11,11,3,4,0,0.25
+brown bear,11,34,5,19,0,1
+camel,9,15,5,2,0,0.125
+cat,12,2,0,1,0,0
+constrictor snake,12,13,4,5,0,0.25
+crab,11,2,0,1,0,0
+crocodile,12,19,4,7,0,0.5
+death dog,12,39,4,5,0,1
+deer,13,4,2,2,0,0
+dire wolf,14,37,5,10,0,1
+draft horse,10,19,6,9,0,0.25
+eagle,12,3,4,4,0,0
+elephant,12,76,8,22,0,4
+elk,10,13,5,8,0,0.25
+flying snake,14,5,6,8,0,0.125
+frog,11,1,0,0,0,0
+giant ape,12,157,9,39,0,7
+giant badger,10,13,3,10,0,0.25
+giant bat,13,22,4,5,0,0.25
+giant boar,12,42,5,10,0,2
+giant centipede,13,4,4,14,0,0.25
+giant constrictor snake,12,60,6,13,0,2
+giant crab,15,13,3,4,0,0.125
+giant crocodile,14,85,8,35,0,5
+giant eagle,13,26,5,16,0,1
+giant elk,14,42,6,22,0,2
+giant fire beetle,13,4,1,2,0,0
+giant frog,11,18,3,4,0,0.25
+giant goat,11,19,5,13,0,0.5
+giant hyena,12,45,5,10,0,1
+giant lizard,12,19,4,6,0,0.25
+giant octopus,11,52,5,10,0,1
+giant owl,12,19,3,8,0,0.25
+giant poisonous snake,14,11,6,16,0,0.25
+giant rat,12,7,4,4,0,0.125
+giant scorpion,15,52,4,51,0,3
+giant sea horse,13,16,3,4,0,0.5
+giant shark,13,126,9,22,0,5
+giant spider,14,26,5,16,0,1
+giant toad,11,39,4,12,0,1
+giant vulture,10,22,4,16,0,1
+giant wasp,12,13,4,15,0,0.5
+giant weasel,13,9,5,5,0,0.125
+giant wolf spider,13,11,3,11,0,0.25
+goat,10,4,3,3,0,0
+hawk,13,1,5,1,0,0
+hunter shark,12,45,6,13,0,2
+hyena,11,5,2,3,0,0
+jackal,12,3,1,1,0,0
+killer whale,12,90,6,21,0,3
+lion,12,26,5,7,0,1
+lizard,10,2,0,1,0,0
+mammoth,13,126,10,29,0,6
+mastiff,12,5,3,4,0,0.125
+mule,10,11,2,4,0,0.125
+octopus,12,3,4,1,0,0
+owl,11,1,3,1,0,0
+panther,12,13,4,5,0,0.25
+phase spider,13,32,4,25,0,3
+poisonous snake,13,2,5,6,0,0.125
+polar bear,12,42,7,21,0,2
+pony,10,11,4,7,0,0.125
+quipper,13,1,5,1,0,0
+rat,10,1,0,1,0,0
+raven,12,1,4,1,0,0
+reef shark,12,22,4,6,0,0.5
+rhinoceros,11,45,7,23,0,2
+riding horse,10,13,5,8,0,0.25
+saber-toothed tiger,12,52,6,12,0,2
+scorpion,11,1,2,5,0,0
+sea horse,11,1,0,0,0,0
+spider,12,1,4,3,0,0
+swarm of bats,12,22,4,5,0,0.25
+swarm of insects,12,22,3,10,0,0.5
+swarm of poisonous snakes,14,36,6,21,0,2
+swarm of quippers,13,28,5,14,0,1
+swarm of rats,10,24,2,7,0,0.25
+swarm of ravens,12,24,4,7,0,0.25
+tiger,12,37,5,8,0,1
+vulture,10,5,2,2,0,0
+warhorse,11,19,6,11,0,0.5
+weasel,13,1,5,1,0,0
+winter wolf,13,75,6,18,0,3
+wolf,13,11,4,7,0,0.25
+worg,13,26,5,10,0,0.5

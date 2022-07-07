@@ -1,0 +1,47 @@
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "cr-predictor"
+version = "0.1.0"
+description = "Predicting challenge ratings via ML"
+authors = ["keiche <keiche@users.noreply.github.com>"]
+readme = "README.md"
+include = ["OGL.md"]
+packages = [
+    { include = "cr_model" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Games/Entertainment",
+]
+
+[tool.poetry.scripts]
+cr_predictor = "cr_predictor:cli"
+
+[tool.poetry.dependencies]
+click = "^8.1.3"
+colorama = "^0.4.5"
+joblib = "^1.1.0"
+numpy = "^1.23.0"
+pandas = "^1.4.3"
+python = "^3.8"
+scikit-learn = "^1.1.1"
+tabulate = "^0.8.10"
+
+[tool.black]
+line-length = 120
+target-version = ["py37", "py38", "py39"]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.venv
+)/
+'''
