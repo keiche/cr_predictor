@@ -1,13 +1,13 @@
 """CR model class"""
 
 # Standard libraries
-from joblib import dump, load
+import logging
 from typing import Union
 
 # PyPI libraries
-import logging
 import numpy as np
 import pandas as pd
+from joblib import dump, load
 from sklearn.model_selection import cross_val_score, ShuffleSplit
 from sklearn.ensemble import ExtraTreesRegressor
 from sklearn.utils import check_array
@@ -73,8 +73,8 @@ class CRModel:
         :return:
         """
         logger.debug("Validating: n_splits=%s, test_size=%s", splits, test_size)
-        cv = ShuffleSplit(n_splits=splits, test_size=test_size, random_state=0)
-        return cross_val_score(self.clf, self.x, self.y, cv=cv)
+        cv_split = ShuffleSplit(n_splits=splits, test_size=test_size, random_state=0)
+        return cross_val_score(self.clf, self.x, self.y, cv=cv_split)
 
     def feature_importance(self) -> dict:
         """

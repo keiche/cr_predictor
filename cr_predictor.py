@@ -2,12 +2,12 @@
 """Challenge rating prediction using supervised machine learning"""
 
 # Standard libraries
+import logging
 from typing import Union
 
 # PyPI libraries
 import click
 import colorama
-import logging
 import numpy as np
 import pandas as pd
 from tabulate import tabulate
@@ -38,6 +38,7 @@ def color_diff(diff: Union[float, int]) -> str:
 @click.group()
 @click.option("-d", "--debug", is_flag=True, help="Debug output")
 def cli(debug) -> None:
+    """Main"""
     # Setup logging
     logging.basicConfig(
         format="%(asctime)s %(name)s %(levelname)s: %(message)s",
@@ -74,8 +75,8 @@ def validate(featureset, split, testsize) -> None:
 
     # Create table to prep for tabulate output
     stats = []
-    for c, score in enumerate(cv_scores):
-        stats.append([c, round((score * 100), 2)])
+    for i, score in enumerate(cv_scores):
+        stats.append([i, round((score * 100), 2)])
 
     print(tabulate(stats, ["test count", "score"], tablefmt="pretty"))
     print(f"{round((cv_scores.mean() * 100), 2)}% accuracy with a standard deviation of {round(cv_scores.std(), 4)}")
@@ -94,8 +95,8 @@ def feature_importances(featureset) -> None:
 
     # Create feature importance table
     table = []
-    for i, v in enumerate(crm.feature_importance()):
-        table.append([i, headers[i + 1], round(v, 4)])
+    for i, value in enumerate(crm.feature_importance()):
+        table.append([i, headers[i + 1], round(value, 4)])
 
     print(tabulate(table, ["num", "name", "importance"], tablefmt="pretty"))
 
@@ -120,7 +121,7 @@ def train(featureset, output) -> None:
 
     # Save the model
     crm.save_model(output)
-    logger.info(f"Saved model to {output}")
+    logger.info("Saved model to %s", output)
 
 
 @cli.command("predict")
@@ -143,8 +144,8 @@ def predict(model, prediction) -> None:
             continue
 
         # Predict
-        p = crm.predict(cells[1:])
-        results.append([cells[0], str(round_to_cr(p))])
+        predicted = crm.predict(cells[1:])
+        results.append([cells[0], str(round_to_cr(predicted))])
     print(tabulate(results, headers=["name", "predicted cr"], tablefmt="pretty"))
 
 
@@ -169,14 +170,14 @@ def predict_known(model, prediction) -> None:
         actual = round_to_cr(float(cells[-1]))
 
         # Prediction
-        p = crm.predict([int(e) for e in cells[1:-1]])
+        predicted = crm.predict([int(e) for e in cells[1:-1]])
 
         # Difference between actual and prediction
-        diff = abs(float(actual) - round_to_cr(p))
+        diff = abs(float(actual) - round_to_cr(predicted))
         diffs.append(diff)
 
         # Store results
-        results.append([cells[0], str(actual), str(round_to_cr(p)), color_diff(diff)])
+        results.append([cells[0], str(actual), str(round_to_cr(predicted)), color_diff(diff)])
     print(
         tabulate(
             results,
