@@ -40,20 +40,20 @@ The "Extremely Randomized Trees" regression model was chosen as it has the highe
 
 Several options are available
 
-### Poetry
+## Poetry
 
 ```shell
 poetry update
 poetry install
 ```
 
-### Docker
+## Docker
 
 ```shell
 docker build . -t cr_predict:latest
 ```
 
-### Wheel
+## Wheel
 
 ```shell
 poetry build
@@ -82,8 +82,7 @@ Commands:
 ## train
 Train and save the model to a file
 
-### Usage
-
+Usage
 ```
 Usage: cr_predictor save_model [OPTIONS] FEATURESET
 
@@ -94,8 +93,7 @@ Options:
   --help             Show this message and exit.
 ```
 
-### Example
-
+Example
 ```
 $ cr_predictor save_model srd_training.csv
 Saved model to cr_model.joblib
